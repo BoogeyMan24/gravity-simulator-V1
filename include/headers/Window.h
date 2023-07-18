@@ -8,7 +8,7 @@
 
 class Window {
 	public:
-		Window(const std::string& title, int x = SDL_WINDOWPOS_CENTERED, int y = SDL_WINDOWPOS_CENTERED, int w = 1024, int h = 600, std::uint32_t flags = (SDL_WINDOW_SHOWN | SDL_WINDOW_RESIZABLE | SDL_WINDOW_FULLSCREEN));
+		Window(const std::string& title, int x = SDL_WINDOWPOS_CENTERED, int y = SDL_WINDOWPOS_CENTERED, int w = 1024, int h = 600, std::uint32_t flags = (SDL_WINDOW_SHOWN | SDL_WINDOW_RESIZABLE));
 	
 		void init();
 		bool isOpen() const;

@@ -32,12 +32,12 @@ void Entity::update(float deltaTime) {
 			
 			acceleration += acc_vec;
 
-			
+			std::cout << acceleration.x << std::endl;
 
 			velocity += acceleration * deltaTime;
 			position += velocity * deltaTime;
 
-			std::cout << position.x << std::endl;
+			
 		}
 	}
 }
